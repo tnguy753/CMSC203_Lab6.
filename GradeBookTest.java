@@ -32,7 +32,7 @@ GradeBook t1,t2;
 		
 	@Test
 	void testAddScore() {
-		assertTrue (t1.toString().equals("68.0 45.0 5.0 28.0 19.0"));
+		assertTrue (t1.toString().equals("68.0 45.0 5.0 28.0 19.0 "));
 		assertTrue (t2.toString().equals("10.0 99.0 24.0 56.0 11.0 "));
 		
 		 assertEquals(5,t1.getScoreSize());
